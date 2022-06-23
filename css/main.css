@@ -5,7 +5,7 @@
     --color333: #333;
     --colorgreen: #0A775F;
     --color-white: #fff;
-}*{}
+}
 /* roboto-regular - latin */
 @font-face {
     font-family: 'Roboto';
@@ -172,8 +172,8 @@ h2{
 }
 .information-item:nth-child(1)::before{
     position: absolute;
-    top: -133px;
-    left: -249px;
+    top: -150px;
+    left: -340px;
     content: "";
     background-image: url(../images/Vector.svg);
     background-repeat: no-repeat;
@@ -181,14 +181,14 @@ h2{
     height: 300px;
 }
 .information-item:nth-child(2n-1) img {
-    margin-right: 117px;
+    margin-right: 97px;
 }
 .information-item:nth-child(even) {
     flex-direction: row-reverse;
     margin: 0 auto;
 }
 .information-item:nth-child(even) .information-img-info {
-    margin-right: 117px;
+    margin-right: 97px;
 }
 .information-img{
     width: 450px;
@@ -199,11 +199,10 @@ h2{
 }
 .information-item:nth-child(2)::after {
     position: absolute;
-    bottom: -210px;
-    right: -254px;
+    bottom: -300px;
+    right: -365px;
     content: "";
     background-image: url(../images/fill.svg);
-    /* background-image: url(../images/Vector\ \(1\).svg); */
     background-repeat: no-repeat;
     width: 392px;
     height: 477px;
@@ -211,8 +210,8 @@ h2{
 
 .information-item:nth-child(4)::before{
     position: absolute;
-    top: -43px;
-    left: -296px;
+    top: -70px;
+    left: -382px;
     content: "";
     background-image: url(../images/Vector\ \(2\).svg);
     background-repeat: no-repeat;
@@ -229,7 +228,8 @@ h3{
     color: var(--color333);
 }
 .img-info-commit{
-        margin: 0;
+    margin: 0;
+    font-weight: 400;
     font-size: 22px;
     line-height: 34px;
     color: var(--color333);
